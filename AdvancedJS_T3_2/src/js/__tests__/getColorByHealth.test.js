@@ -1,7 +1,5 @@
 import {getColorByHealth, getRandomHealth} from '../hero.js';
 
-const hero = {health: 100};
-
 test('getColorByHealth', () => {
     expect(getColorByHealth({health: 100})).toBe('healthy');
     expect(getColorByHealth({health: 50})).toBe('wounded');
