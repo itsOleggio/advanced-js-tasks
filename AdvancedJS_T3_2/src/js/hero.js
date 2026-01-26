@@ -8,9 +8,6 @@ export function getColorByHealth(hero){
     }
 }
 
-/*************  ✨ Windsurf Command ⭐  *************/
-/**
-/*******  922c660f-3b86-44ec-9807-43cd1d1f8d59  *******/
 export function getRandomHealth(){
     return Math.round(Math.random() * 100);
 }
