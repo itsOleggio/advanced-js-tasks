@@ -4,4 +4,8 @@ module.exports = {
   ],
   testPathIgnorePatterns: ['/node_modules/'],
   testEnvironment: 'jsdom',
-}
+
+  transform: {
+    '^.+\\.js$': 'babel-jest',
+  },
+};
