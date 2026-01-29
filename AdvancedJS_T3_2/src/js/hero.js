@@ -1,5 +1,5 @@
 export function getColorByHealth(hero){
-    if(hero.health > 51){
+    if(hero.health > 50){
         return 'healthy';
     } else if (hero.health <= 50 && hero.health > 15){
         return 'wounded';
