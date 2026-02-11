@@ -23,16 +23,16 @@ AdvancedJS_T7_ProductList/
 │   │   ├── IconSwitch/
 │   │   │   └──IconSwitch.jsx // Компонент переключателя
 │   │   ├── ListView/
-│   │   │   ├──ListView.css // стили для списка
+│   │   │   ├──ListView.module.css // стили для списка
 │   │   │   └──ListView.jsx // Компонент списка
 │   │   ├── CardsView/
-│   │   │   ├──CardsView.css // стили для карточек
+│   │   │   ├──CardsView.module.css // стили для карточек
 │   │   │   └──CardsView.jsx // Компонент карточек
 │   │   ├── ShopCard/
-│   │   │   ├──ShopCard.css // стиль карточки
+│   │   │   ├──ShopCard.module.css // стиль карточки
 │   │   │   └──ShopCard.jsx // Компонент карточки товара
 │   │   └──ShopItem/
-│   │       ├──ShopItem.css // стиль товара
+│   │       ├──ShopItem.module.css // стиль товара
 │   │       └──ShopItem.jsx // Компонент товара
 │   ├── constants/
 │   │   └── products.jsx // консткнты для вывода списков товаров
