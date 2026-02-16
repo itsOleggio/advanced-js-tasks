@@ -10,7 +10,7 @@ function App() {
       {
         messages.map((message) =>(
           <MessageHistory
-            key = {message.id}
+            key={message.id}
             messageProp={message}
           />
         ))
