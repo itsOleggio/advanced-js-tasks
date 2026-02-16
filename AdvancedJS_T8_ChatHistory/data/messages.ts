@@ -1,4 +1,6 @@
-export const messages = [{
+import type { IChat } from "./../src/model/chat.model"
+
+export const messages: IChat[] = [{
   id: 'chat-5-1090',
   from: { name: 'Ольга' },
   type: 'response',

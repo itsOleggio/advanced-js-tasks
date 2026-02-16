@@ -7,7 +7,7 @@ interface IChatProps {
 
 export function MessageHistory({ messageProp }: IChatProps) {
 
-    const getMessageType = (type: string): string | undefined => {
+    const getMessageType = (type: string): string => {
         switch (type) {
             case 'response':
                 return 'message-response';
@@ -15,6 +15,8 @@ export function MessageHistory({ messageProp }: IChatProps) {
                 return 'message-own'
             case 'typing':
                 return 'message-typing'
+            default:
+                return '';
         }
     }
 
