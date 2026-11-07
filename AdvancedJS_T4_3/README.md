@@ -1,5 +1,4 @@
 # Задание 4.3 "Коллекция Map"
-![CI](https://github.com/itsOleggio/AdvancedJS_T4_3/actions/workflows/ci.yml/badge.svg)
 
 ## Описание 
 

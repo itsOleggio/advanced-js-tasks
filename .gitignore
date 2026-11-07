@@ -19,3 +19,5 @@ coverage/
 # OS and editors
 .DS_Store
 .idea/
+.vscode/
+*.local

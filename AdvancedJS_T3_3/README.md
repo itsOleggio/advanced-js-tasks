@@ -1,1 +1,1 @@
-![CI](https://github.com/itsOleggio/AdvancedJS_T3_3/actions/workflows/ci.yml/badge.svg)
+# Задание 3.3 Сортировка героев по здоровью

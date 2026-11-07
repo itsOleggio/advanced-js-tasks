@@ -1,5 +1,4 @@
 # Задание 5.1 "Новые типы"
-![CI](https://github.com/itsOleggio/AdvancedJS_T5_1/actions/workflows/ci.yml/badge.svg)
 
 ## Описание 
 
