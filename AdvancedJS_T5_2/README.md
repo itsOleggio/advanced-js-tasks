@@ -13,13 +13,13 @@
 
 Используем библиотеку Jest.
 Тестом покрыта основная функция программы 
-- `getTotalPrice()`
-- `getDiscount(totalAmount : number, discount : number)`
-- `findProduct(product: IProduct)`
-- `addProduct(product: IProduct, quantity: number)`
-- `deleteProduct(product: IProduct)`
-- `deleteProductById(id: number)`
-- `showCart()`
+- `getTotalPrice()` - возвращает общую стоимость корзины
+- `getDiscount(totalAmount : number, discount : number)` - возвращает общую стоимость корзины с учетом скидки
+- `findProduct(product: IProduct)` - поиск продукта в корзине
+- `addProduct(product: IProduct, quantity: number)` - добавление продукта в корзину
+- `deleteProduct(product: IProduct)` - удаление продукта из корзины по названию
+- `deleteProductById(id: number)` - удаление продукта из корзины по ID
+- `showCart()` - показать состояние корзины
 
 Запуск тестов: `npx test`. 
 

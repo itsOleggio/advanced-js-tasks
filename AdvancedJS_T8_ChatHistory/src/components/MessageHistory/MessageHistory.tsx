@@ -29,7 +29,7 @@ export function MessageHistory({ messageProp }: IChatProps) {
                 <span className="message-time">{messageProp.time}</span>
             </div>
             <div className={isTyping? 'typing-indicator ``' : 'message-bubble'}>
-                {isTyping ? 'печатает...' : messageProp.text}
+                {isTyping ? 'печатает...' : messageProp.text}   
                 {isTyping && ( <div className="typing-dots">
                         <span></span>
                         <span></span>
